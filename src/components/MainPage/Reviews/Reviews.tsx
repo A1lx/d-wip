@@ -4,7 +4,7 @@ import reviewPortS from "./img/review-port-2.png";
 
 export const Reviews = () => {
   return (
-    <div className="reviews">
+    <div id="reviews" className="reviews">
       <span className="reviews-title">ОТЗЫВЫ</span>
       <div className="reviews-box">
         <div className="review">

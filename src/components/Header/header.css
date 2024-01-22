@@ -1,9 +1,6 @@
 .header {
-  position: relative;
   height: 977px;
-  background-color: #9B6909;
   color: #FFFFFF;
-  background-image: url('./img/header.png');
 }
 
 .logo {
@@ -40,28 +37,4 @@
   color: #FFFFFF;
   text-decoration: none;
   font-size: 30px;
-}
-
-.header__title-box {
-  font-size: 72px;
-  margin-top: 415px;
-  margin-left: 348px;
-}
-
-.header__title {
-  display: block;
-}
-
-.header__title_bold {
-  font-weight: bold;
-}
-
-.search-tickets {
-  position: absolute;
-  top: 411px;
-  left: 958px;
-  width: 759px;
-  height: 566px;
-  background-color: #292929;
-  opacity: 0.8;
 }

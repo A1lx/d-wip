@@ -5,12 +5,11 @@ import "./Advantages.css";
 
 export const Advantages = () => {
   return (
-    <div className="advantages">
+    <div id="advantages" className="advantages">
       <div className="advantages__title">
         <span className="advantages__title-text">КАК ЭТО РАБОТАЕТ</span>
         <button className="advantages__title-btn">Узнать больше</button>
       </div>
-      
       <div className="advantages__examples">
         <div className="advantages__example">
           <img src={advIconPC} alt="advantages-icon"/>
@@ -25,7 +24,6 @@ export const Advantages = () => {
           <span className="advantages__example-text">Огромный выбор направлений</span>
         </div>
       </div>
-
     </div>
   )
 }

@@ -1,6 +1,6 @@
 export const AboutService = () => {
   return (
-    <div className="about-service">
+    <div id="about" className="about-service">
       <span className="about-service__title">О НАС</span>
       <div className="about-service__description">
         <div>
