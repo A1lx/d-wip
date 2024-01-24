@@ -40,33 +40,29 @@ export const SearchTickets = () => {
             />
           </div>
         </div>
-        <span >Дата</span>
+        <span>Дата</span>
         <div className="search-tickets__form-block search-tickets__form-block_date">
           <div>
+            <label htmlFor="search-tickets-form"></label>
             <DatePicker 
-              className="search-tickets__form-input" 
+              className="search-tickets__form-input"
+              id="search-tickets-form"
+              name="search-tickets-form"
               selected={startDate}
               placeholderText="ДД/ММ/ГГ"
-              onChange={(date) => setStartDate(date)}/>
-            {/* <label htmlFor="search-tickets-form"></label>
-            <input 
-              id="search-tickets-form" 
-              name="search-tickets-form" 
-              className="search-tickets__form-input" 
-              type="date"/> */}
+              onChange={(date) => setStartDate({date})}
+              />
           </div>
           <div>
+            <label htmlFor="search-tickets-form"></label>
             <DatePicker 
               className="search-tickets__form-input" 
+              id="search-tickets-form"
+              name="search-tickets-form"
               selected={endDate}
               placeholderText="ДД/ММ/ГГ"
-              onChange={(date) => setEndDate(date)}/>
-            {/* <label htmlFor="search-tickets-form"></label>
-            <input 
-              id="search-tickets-form" 
-              name="search-tickets-form" 
-              className="search-tickets__form-input" 
-              type="date"/> */}
+              onChange={(date) => setEndDate(date)}
+              />
           </div>
         </div>
         <div className="search-tickets__form-btn-box">
