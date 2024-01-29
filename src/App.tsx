@@ -1,4 +1,6 @@
 import './App.css';
+// при подключении стили страницы сходят с ума
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components/Header/Header';
 import { MainPage } from './components/MainPage/MainPage';
 import { Footer } from './components/Footer/Footer';

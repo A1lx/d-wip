@@ -1,9 +1,12 @@
 import "./reviews.css";
 import reviewPortF from "./img/review-port-1.png";
 import reviewPortS from "./img/review-port-2.png";
+import UncontrolledExample from "./UncontrolledExample";
 
 export const Reviews = () => {
   return (
+    <>
+    <UncontrolledExample/>
     <div id="reviews" className="reviews">
       <span className="reviews-title">ОТЗЫВЫ</span>
       <div className="reviews-box">
@@ -79,5 +82,6 @@ export const Reviews = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
