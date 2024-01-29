@@ -54,9 +54,15 @@
 .search-tickets__form-btn {
   width: 323px;
   height: 60px;
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 5px;
   font-size: 24px;
   font-weight: 700;
   background-color: #FFA800;
+}
+
+.search-tickets__form-btn:active {
+  background-color: #fff;
+  color: #FFA800;
+  border: 1px solid #FFA800;
 }

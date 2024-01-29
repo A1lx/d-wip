@@ -10,8 +10,8 @@ registerLocale('ru', ru);
 setDefaultLocale('ru');
 
 export const SearchTickets = () => {
-  const [startDate, setStartDate] = useState();
-  const [endDate, setEndDate] = useState();
+  const [startDate, setStartDate] = useState<Date | null>();
+  const [endDate, setEndDate] = useState<Date | null>();
 
   return (
     <div className="search-tickets">
@@ -50,7 +50,7 @@ export const SearchTickets = () => {
               name="search-tickets-form"
               selected={startDate}
               placeholderText="ДД/ММ/ГГ"
-              onChange={(date) => setStartDate({date})}
+              onChange={(date) => setStartDate(date)}
               />
           </div>
           <div>

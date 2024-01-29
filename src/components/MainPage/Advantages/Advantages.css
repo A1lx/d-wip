@@ -44,6 +44,18 @@
   height: 60px;
 }
 
+.advantages__title-btn:hover {
+  background-color: #FFCA62;
+  color: #000000;
+  border: none;
+}
+
+.advantages__title-btn:active {
+  background-color: #fff;
+  color: #000000;
+  border: none;
+}
+
 .advantages__examples {
   position: relative;
   z-index: 10;

@@ -1,0 +1,7 @@
+.train-list__info-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  color: #928F94;
+}

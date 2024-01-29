@@ -68,10 +68,30 @@
   padding: 0;
 }
 
-.subscribe__icons-box {
+.subscribe__form-btn:hover {
+  background-color: #FFCA62;
+  color: #000000;
+  border: none;
+}
+
+.subscribe__form-btn:active {
+  background-color: #fff;
+  color: #000000;
+  border: none;
+}
+
+.socials__icons-box {
   display: flex;
   justify-content: space-between;
   width: 360px;
+}
+
+.socials__icon {
+  fill: #fff;
+}
+
+.socials__icon:hover {
+  fill: #FFCA62;
 }
 
 .footer__line {

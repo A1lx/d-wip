@@ -2,6 +2,7 @@ import './App.css';
 import { Header } from './components/Header/Header';
 import { MainPage } from './components/MainPage/MainPage';
 import { Footer } from './components/Footer/Footer';
+import { CheckoutPage } from './components/CheckoutPage/CheckoutPage';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Header/>
       <MainPage/>
       <Footer/>
+
+      {/* <Header/>
+      <CheckoutPage/> */}
     </div>
   )
 }

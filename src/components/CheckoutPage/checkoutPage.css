@@ -1,0 +1,48 @@
+.checkout-page__banner {
+  position: absolute;
+  top: 0;
+  background-image: url("./img//checkout-page-banner.png");
+  background-color: #928F94;
+  height: 596px;
+  width: 100%;
+  z-index: -10;
+}
+
+.progress-bar {
+  display: flex;
+  margin-top: 434px;
+  background-color: #3E3C41;
+  color: #fff;
+  height: 98px;
+}
+
+.progress-bar__section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  width: calc(100% / 4);
+  border-right: 1px solid #E5E5E5;
+}
+
+.progress-bar__section:last-child {
+  border-right: none;
+}
+
+.progress-bar__section_active {
+  background-color: #FFA800;
+}
+
+.progress-bar__section-number {
+  font-size: 36px;
+  border: 3px solid #fff;
+  border-radius: 43px;
+  width: 43px;
+  text-align: center;
+}
+
+.progress-bar__section-name {
+  font-size: 30px;
+  margin-left: 30px;
+}
