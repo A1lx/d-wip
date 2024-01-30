@@ -1,7 +1,6 @@
 import "./reviews.css";
 import reviewPortF from "./img/review-port-1.png";
 import reviewPortS from "./img/review-port-2.png";
-//import UncontrolledExample from "./UncontrolledExample";
 
 export const Reviews = () => {
   return (
