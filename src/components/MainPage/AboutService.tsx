@@ -1,6 +1,6 @@
 export const AboutService = () => {
   return (
-    <div id="about" className="about-service">
+    <section id="about" className="about-service">
       <span className="about-service__title">О НАС</span>
       <div className="about-service__description">
         <div>
@@ -18,6 +18,6 @@ export const AboutService = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

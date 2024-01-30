@@ -5,7 +5,7 @@ import "./Advantages.css";
 
 export const Advantages = () => {
   return (
-    <div id="advantages" className="advantages">
+    <section id="advantages" className="advantages">
       <div className="advantages__title">
         <span className="advantages__title-text">КАК ЭТО РАБОТАЕТ</span>
         <button className="advantages__title-btn">Узнать больше</button>
@@ -24,6 +24,6 @@ export const Advantages = () => {
           <span className="advantages__example-text">Огромный выбор направлений</span>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

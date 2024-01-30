@@ -1,3 +1,7 @@
+.checkout-page {
+  background-color: #F7F5F9;
+}
+
 .checkout-page__banner {
   position: absolute;
   top: 0;
@@ -45,4 +49,10 @@
 .progress-bar__section-name {
   font-size: 30px;
   margin-left: 30px;
+}
+
+.train-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 95px;
 }

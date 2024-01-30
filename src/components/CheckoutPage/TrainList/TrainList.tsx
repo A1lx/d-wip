@@ -1,8 +1,9 @@
 import "./trainList.css";
+import { TrainItem } from "./TrainItem/TrainItem";
 
 export const TrainList = () => {
   return (
-    <div className="train-list">
+    <section className="train-list">
       <div className="train-list__info-box">
         <span>Найдено 20</span>
         <div>
@@ -18,6 +19,7 @@ export const TrainList = () => {
           <button className="train-list__info-show-btn">20</button>
         </div>
       </div>
-    </div>
+      <TrainItem/>
+    </section>
   )
 }
