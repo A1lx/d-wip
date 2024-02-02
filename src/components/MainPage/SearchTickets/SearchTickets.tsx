@@ -50,6 +50,7 @@ export const SearchTickets = () => {
               name="search-tickets-form"
               selected={startDate}
               placeholderText="ДД/ММ/ГГ"
+              dateFormat="dd/MM/yyyy"
               onChange={(date) => setStartDate(date)}
               />
           </div>
@@ -61,6 +62,7 @@ export const SearchTickets = () => {
               name="search-tickets-form"
               selected={endDate}
               placeholderText="ДД/ММ/ГГ"
+              dateFormat="dd/MM/yyyy"
               onChange={(date) => setEndDate(date)}
               />
           </div>

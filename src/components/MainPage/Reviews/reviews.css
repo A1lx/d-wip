@@ -49,3 +49,14 @@
 .quotes-right {
   bottom: -5px;
 }
+
+/* переопределение стилей библиотеки карусели
+   использовал important, т.к. ничего лучше не придумал
+*/
+.slick-dots {
+  bottom: -134px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 19px !important;
+}
