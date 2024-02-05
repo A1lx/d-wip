@@ -7,11 +7,11 @@ import { CheckoutPage } from './components/CheckoutPage/CheckoutPage';
 function App() {
   return (
     <div className='container'>
-      <Header/>
-      <MainPage/>
-      <Footer/>
       {/* <Header/>
-      <CheckoutPage/> */}
+      <MainPage/>
+      <Footer/> */}
+      <Header/>
+      <CheckoutPage/>
     </div>
   )
 }

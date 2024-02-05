@@ -1,0 +1,146 @@
+.train-item {
+  display: flex;
+  margin-top: 47px;
+}
+
+.train-item__direction-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E4E0E9;
+  width: 197px;
+}
+
+.train-item__direction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.train-item__direction-icon {
+  width: 86px;
+}
+
+.train-item__direction-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 17px 0;
+}
+
+.train-item__direction-city {
+  font-size: 16px;
+}
+
+.train-item__direction-city_gray {
+  color: #928F94;
+}
+
+.train-item__schedule-box {
+  width: 481px;
+  border-right: 1px dashed #E5E5E5;
+  background-color: #fff;
+}
+
+.train-item__schedule {
+  display: flex;
+  justify-content: space-between;
+  margin: 54px 39px 0 39px;
+}
+
+.train-item__schedule-time {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.train-item__schedule-direction {
+  font-size: 16px;
+}
+
+.train-item__schedule-direction_gray {
+  color: #928F94;
+}
+
+.train-item__schedule-duration-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.train-item__schedule-duration {
+  font-size: 18px;
+  color: #C4C4C4;
+}
+
+.train-item__places-box {
+  width: 281px;
+  background-color: #fff;
+}
+
+.train-item__places-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 41px 26px 0 26px;
+}
+
+.train-item__places-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.train-item__places-item:last-child {
+  margin-bottom: 0;
+}
+
+.train-item__place-quantity {
+  font-weight: 500;
+  color: #FFA800;
+  margin-right: 15px;
+}
+
+.train-item__place-from {
+  color: #928F94;
+}
+
+.train-item__place-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.train-item__place-currency {
+  font-size: 24px;
+  color: #928F94;
+}
+
+.train-item__filter-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 31px 26px 0 26px;
+}
+
+.train-item__filter-icon {
+  margin-right: 16px;
+}
+
+.train-item__filter-icon:last-child {
+  margin-right: 0;
+}
+
+.train-item__places-btn {
+  margin: 20px calc((281px - 228px) / 2);
+  width: 228px;
+  height: 39px;
+  background-color: #FFA800;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.train-item__places-btn:active {
+  background-color: #fff;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}
