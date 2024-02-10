@@ -1,4 +1,5 @@
 import './App.css';
+import "react-datepicker/dist/react-datepicker.css";
 import { Header } from './components/Header/Header';
 import { MainPage } from './components/MainPage/MainPage';
 import { Footer } from './components/Footer/Footer';

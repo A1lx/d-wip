@@ -68,8 +68,9 @@
 }
 
 /* переопределение стилей библиотеки календаря */
-.react-datepicker {
-  width: 322px;
+
+.date-picker__calendar {
+  width: 322px; 
 }
 
 .react-datepicker__month-container {

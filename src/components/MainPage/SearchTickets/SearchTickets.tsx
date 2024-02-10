@@ -2,7 +2,6 @@ import "./searchTickets.css";
 import swapIcon from "./img/swap-icon.svg";
 import { useState } from "react";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 import ru from 'date-fns/locale/ru';
 import { registerLocale, setDefaultLocale } from "react-datepicker";
 
@@ -46,6 +45,8 @@ export const SearchTickets = () => {
             <label htmlFor="search-tickets-form"></label>
             <DatePicker 
               className="search-tickets__form-input"
+              calendarClassName="date-picker__calendar"
+              minDate={new Date()}
               id="search-tickets-form"
               name="search-tickets-form"
               selected={startDate}
@@ -57,7 +58,9 @@ export const SearchTickets = () => {
           <div>
             <label htmlFor="search-tickets-form"></label>
             <DatePicker 
-              className="search-tickets__form-input" 
+              className="search-tickets__form-input"
+              calendarClassName="date-picker__calendar"
+              minDate={new Date()}
               id="search-tickets-form"
               name="search-tickets-form"
               selected={endDate}
