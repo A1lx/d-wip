@@ -109,7 +109,7 @@ export const Footer = () => {
       <div className="footer__line"></div>
       <div className="footer__copyright">
         <div className="footer__logo">
-          <a href="#" className="footer__logo-link">Лого</a>
+          <a href="/" className="footer__logo-link">Лого</a>
         </div>
         <div>
           <a href="#">

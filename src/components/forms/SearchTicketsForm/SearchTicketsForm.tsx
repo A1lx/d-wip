@@ -1,4 +1,5 @@
 import "./SearchTicketsForm.css";
+import { Link } from "react-router-dom";
 import { DatesSelect } from "./DatesSelect";
 import { СitiesSelect } from "./СitiesSelect";
 
@@ -10,7 +11,9 @@ export const SearchTicketsForm = () => {
         <СitiesSelect/>
         <DatesSelect/>
         <div className="search-tickets__form-btn-box">
-          <button className="search-tickets__form-btn" type="submit">НАЙТИ БИЛЕТЫ</button>
+          <Link to={"/CheckoutPage"}>
+            <button className="search-tickets__form-btn" type="submit">НАЙТИ БИЛЕТЫ</button>
+          </Link>
         </div>
       </form>
     </div>
