@@ -2,6 +2,7 @@ import "./checkoutPage.css";
 import { TrainList } from "./TrainList/TrainList";
 import { SideBar } from "./SideBar/SideBar";
 
+/* 2я страница, страница выбора поезда */
 export const CheckoutPage = () => {
   return (
     <main className="checkout-page">

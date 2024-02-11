@@ -1,7 +1,7 @@
 import { AboutService } from "./AboutService";
 import { Advantages } from "./Advantages/Advantages";
 import { Reviews } from "./Reviews/Reviews";
-import { SearchTickets } from "./SearchTickets/SearchTickets";
+import { SearchTicketsForm } from "../forms/SearchTicketsForm/SearchTicketsForm";
 import "./mainPage.css";
 
 export const MainPage = () => {
@@ -13,7 +13,7 @@ export const MainPage = () => {
           <div className="banner__title-bold">путешествие!</div>
         </div>
       </div>
-      <SearchTickets/>
+      <SearchTicketsForm/>
       <AboutService/>
       <Advantages/>
       <Reviews/>

@@ -10,3 +10,9 @@
   font-weight: 400;
   color: #928F94;
 }
+
+.train-list__pagination-box {
+  display: flex;
+  justify-content: end;
+  margin-top: 142px;
+}
