@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer id="footer" className="footer">
       <div className="footer__info-box">
-        <div className="contacts">
+        <section className="contacts">
           <div className="footer-title">Свяжитесь с нами</div>
           <div className="contact">
             <img src={contactsIcon1} alt="contacts-icon" className="contact-icon"/>
@@ -27,12 +27,12 @@ export const Footer = () => {
             <img src={contactsIcon4} alt="contacts-icon" className="contact-icon"/>
             г. Москва <br/>ул. Московская 27-35 555 555
           </div>
-        </div>
-        <div className="subscribe">
+        </section>
+        <section className="subscribe">
           <div className="footer-title">Подписка</div>
           <div>Будьте в курсе событий</div>
           <form className="subscribe__form" autoComplete="off">
-            <div>
+            <div className="subscribe__form-input-box">
               <label htmlFor="subscribe-form"></label>
               <input id="subscribe-form" name="subscribe-form" className="subscribe__form-input" type="email" placeholder="e-mail"/>
             </div>
@@ -104,10 +104,10 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
-        </div>
+        </section>
       </div>
       <div className="footer__line"></div>
-      <div className="footer__copyright">
+      <article className="footer__copyright">
         <div className="footer__logo">
           <a href="/" className="footer__logo-link">Лого</a>
         </div>
@@ -117,7 +117,7 @@ export const Footer = () => {
           </a>
         </div>
         <span className="footer__copyright-text">2024 WEB</span>
-      </div>
+      </article>
     </footer>
   )
 }

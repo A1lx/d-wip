@@ -1,0 +1,9 @@
+.seats-selection {
+  width: 959px;
+  margin-left: 83px;
+}
+
+.seats-selection__title {
+  font-size: 30px;
+  font-weight: 500;
+}

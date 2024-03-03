@@ -1,0 +1,104 @@
+.carriage-seats {
+  margin-top: 26px;
+}
+
+.carriage-seats__numbering {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFA80070;
+  height: 37px;
+  padding: 0 33px;
+}
+
+.carriage-seats__name {
+  font-size: 18px;
+}
+
+.carriage-seats__number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.carriage-seats__number:last-child {
+  color: #000;
+}
+
+.carriage-seats__info {
+  display: flex;
+  height: 161px;
+}
+
+.carriage-seats__carriage-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFA80070;
+  width: 190px;
+}
+
+.carriage-seats__carriage-number {
+  font-size: 72px;
+  font-weight: 700;
+  margin-left: 37px;
+}
+
+.carriage-seats__carriage-text {
+  font-size: 24px;
+  margin-left: 37px;
+}
+
+.carriage-seats__seats-info {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 190px);
+  padding: 34px 58px 0 85px;
+}
+
+.carriage-seats__header {
+  font-size: 18px;
+  color: #928F94;
+}
+
+.carriage-seats__header_number {
+  color: #000;
+}
+
+.carriage-seats__content {
+  font-size: 24px;
+}
+
+.carriage-seats__content_number {
+  font-weight: 700;
+}
+
+.carriage-seats__content_currency {
+  color: #928F94;
+}
+
+.carriage-seats__btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.carriage-seats__filters-box {
+  display: flex;
+  flex-direction: column;
+  width: 182px;
+}
+
+.carriage-seats__filters-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carriage-seats__filters-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+}

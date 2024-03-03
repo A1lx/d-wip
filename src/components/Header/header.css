@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  z-index: 10;
+  max-width: 1920px;
+  width: 100%;
   color: #FFFFFF;
 }
 
@@ -27,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  width: 1086px;
+  width: 56.56%;
   padding: 0;
   margin-left: 258px;
 }

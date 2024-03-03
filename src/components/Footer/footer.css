@@ -35,6 +35,8 @@
 
 .subscribe {
   margin-left: 300px;
+  max-width: 649px;
+  width: 33.8%;
 }
 
 .subscribe__form {

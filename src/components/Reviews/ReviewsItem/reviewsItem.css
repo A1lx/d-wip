@@ -1,0 +1,59 @@
+.reviews-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review {
+  display: flex;
+  margin-top: 78px;
+}
+
+.review__portrait {
+  width: 200px;
+  height: 200px;
+}
+
+.review-description {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-left: 35px;
+}
+
+.review-description-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+}
+
+.review-description-text {
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: #928F94;
+}
+
+.quotes {
+  position: absolute;
+}
+
+.quotes-left {
+  left: -15px;
+  top: -5px;
+}
+
+.quotes-right {
+  bottom: -5px;
+}
+
+/* переопределение стилей библиотеки карусели
+   использовал important, т.к. ничего лучше не придумал
+*/
+.slick-dots {
+  bottom: -134px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 19px !important;
+}

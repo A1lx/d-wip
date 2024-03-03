@@ -1,0 +1,36 @@
+.about-service {
+  margin-top: 144px;
+  margin-left: 258px;
+}
+
+.about-service__title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.about-service__description {
+  display: flex;
+  font-size: 24px;
+  line-height: 28.13px;
+  min-height: 231px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.about-service__description::before {
+  display: block;
+  content: "";
+  min-height: 100%;
+  width: 9px;
+  background-color: #FFA800;
+  margin-right: 19px;
+  box-sizing: border-box;
+}
+
+.about-service__description-text {
+  margin-top: 0;
+}
+
+.about-service__description-text_bold {
+  font-weight: bold;
+}
