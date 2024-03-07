@@ -9,22 +9,24 @@ export const FiltersDate = () => {
   return (
     <article className="filters-date">
       <div className="filters-date__title">Дата поездки</div>
-      <div>
+      <div className="filters-date__input-box">
         <label htmlFor=""></label>
         <DatePicker 
           className="filters-date__input"
           selected={travelDate}
           dateFormat="dd/MM/yyyy"
+          minDate={new Date()}
           onChange={(date) => setTravelDate(date)}
         />
       </div>
       <div className="filters-date__title">Дата возвращения</div>
-      <div>
+      <div className="filters-date__input-box">
         <label htmlFor=""></label>
         <DatePicker 
           className="filters-date__input"
           selected={returnDate}
           dateFormat="dd/MM/yyyy"
+          minDate={new Date()}
           onChange={(date) => setReturnDate(date)}
         />
       </div>

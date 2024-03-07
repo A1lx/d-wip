@@ -1,0 +1,44 @@
+.checkout-search-tickets-form__box {
+  position: absolute;
+  bottom: 0;
+  width: 1490px;
+  height: 323px;
+  background-color: #292929b0;
+}
+
+.checkout-search-tickets-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 28px 44px 0 44px;
+}
+
+.checkout-search-tickets-form__components-box {
+  width: 673px;
+}
+
+.checkout-search-tickets-form__components-box_date {
+  justify-self: end;
+}
+
+.checkout-search-tickets-form__btn-box {
+  margin-top: 47px;
+  grid-column: span 2;
+  justify-self: end;
+}
+
+.checkout-search-tickets-form__btn {
+  width: 323px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #FFA800;
+}
+
+.checkout-search-tickets-form__btn:active {
+  background-color: #fff;
+  color: #FFA800;
+  border: 1px solid #FFA800;
+}

@@ -4,13 +4,17 @@ import Popover from '@mui/material/Popover';
 
 
 export const CarriageSeats = () => {
-  let popoverText = "всплывающий текст";
   const [anchorEl, setAnchorEl] = React.useState<HTMLElement | null>(null);
+  const [popoverText, setPopoverText] = React.useState("");
 
   const handlePopoverOpen = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
     if (event.currentTarget.className.includes("carriage-seats__btn_conditioner")) {
-      popoverText = "кондиционер";
+      setPopoverText("Кондиционер");
+    } else if (event.currentTarget.className.includes("carriage-seats__btn_wifi")) {
+      setPopoverText("Наличие wi-fi");
+    } else {
+      setPopoverText("текст");
     }
   };
 
@@ -21,7 +25,7 @@ export const CarriageSeats = () => {
   const open = Boolean(anchorEl);
 
   return (
-    <div className="carriage-seats">
+    <article className="carriage-seats">
       <div className="carriage-seats__numbering">
         <div>
           <span className="carriage-seats__name">Вагоны </span>
@@ -74,7 +78,7 @@ export const CarriageSeats = () => {
                   <path d="M10.6548 15.5332C10.6548 12.2664 10.6548 8.99602 10.6548 5.69617C12.3622 5.7771 13.7424 6.47974 14.6518 7.95493C15.7517 9.73912 15.7266 11.5748 14.6231 13.3553C13.5591 15.0623 11.7008 15.6067 10.6548 15.5332Z" fill="#292929"/>
                 </svg>
               </button>
-              <button className="carriage-seats__btn" onMouseEnter={handlePopoverOpen} onMouseLeave={handlePopoverClose}>
+              <button className="carriage-seats__btn carriage-seats__btn_wifi" onMouseEnter={handlePopoverOpen} onMouseLeave={handlePopoverClose}>
                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M19.4737 4.46617C19.2528 4.67493 19.0318 4.88369 18.8171 5.09878C18.6024 5.31387 18.4004 5.54161 18.1731 5.78833C15.8686 3.5552 13.16 2.37854 9.99058 2.37854C6.83374 2.37854 4.13779 3.5552 1.89644 5.72507C1.44817 5.28224 1.01883 4.85206 0.526367 4.35862C1.20825 3.82723 1.87118 3.22624 2.60988 2.73281C7.86918 -0.759218 14.6501 -0.151909 19.2338 4.20047C19.3096 4.27006 19.3917 4.33332 19.4737 4.39658C19.4737 4.42188 19.4737 4.44086 19.4737 4.46617Z" fill="#292929"/>
                   <path d="M9.68719 15.4738C9.60511 15.4358 9.52304 15.3915 9.43464 15.3536C8.76539 15.0689 8.39289 14.3667 8.53179 13.6519C8.67069 12.9433 9.29574 12.4309 10.0218 12.4309C10.7416 12.4372 11.3666 12.956 11.4992 13.6645C11.6318 14.373 11.2467 15.0752 10.5711 15.3536C10.4827 15.3915 10.4006 15.4295 10.3122 15.4675C10.1039 15.4738 9.89554 15.4738 9.68719 15.4738Z" fill="#292929"/>
@@ -111,12 +115,12 @@ export const CarriageSeats = () => {
                 onClose={handlePopoverClose}
                 disableRestoreFocus
             >
-              <span>{popoverText}</span>
+              <div className="test__class">{popoverText}</div>
             </Popover>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </article>
   )
 }

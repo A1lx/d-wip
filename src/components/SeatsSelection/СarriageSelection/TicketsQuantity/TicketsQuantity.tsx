@@ -1,6 +1,6 @@
 export const TicketsQuantity = () => {
   return (
-    <div className="tickets-quantity">
+    <article className="tickets-quantity">
       <span className="tickets-quantity__title">Количество билетов</span>
       <div className="tickets-quantity__by-ages">
         <div className="tickets-quantity__element-box tickets-quantity__element-box_gray-bgc">
@@ -21,6 +21,6 @@ export const TicketsQuantity = () => {
           </div>
         </div>
       </div>
-    </div>
+    </article>
   )
 }

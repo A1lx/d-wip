@@ -4,6 +4,7 @@ import { SelectedRoute } from "./SelectedRoute/SelectedRoute";
 import { TicketsQuantity } from "./TicketsQuantity/TicketsQuantity";
 import { СarriageType } from "./СarriageType/СarriageType";
 import { CarriageSeats } from "./CarriageSeats/CarriageSeats";
+import { CarriageScheme } from "./CarriageScheme/CarriageScheme";
 
 /* выбор мест в вагоне */
 export const СarriageSelection = () => {
@@ -19,6 +20,7 @@ export const СarriageSelection = () => {
       <TicketsQuantity/>
       <СarriageType/>
       <CarriageSeats/>
+      <CarriageScheme/>
     </article>
   )
 }

@@ -13,11 +13,16 @@
   margin-bottom: 18px;
 }
 
+.filters-date__input-box {
+  margin-bottom: 30px;
+}
+
 .filters-date__input {
   height: 43px;
   width: 295px;
   box-sizing: border-box;
   border: none;
   border-radius: 3px;
-  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
 }

@@ -1,0 +1,44 @@
+.date-select__title {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0 0 22px 0;
+}
+
+.dates-select__inputs-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates-select__input {
+  width: 322px;
+  height: 60px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 21px;
+}
+
+.dates-select__input::placeholder {
+  color: #E5E5E5;
+}
+
+/* переопределение библиотеки стилей календаря; если раскоментить, то у всех календарей будет один стиль, а необходим другой
+*/
+
+/* .date-picker__calendar {
+  width: 103%; 
+}
+
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.react-datepicker__day {
+  width: 2.3rem;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #FFA800;
+}  */

@@ -4,6 +4,9 @@
 }
 
 .checkout-page__banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
   background-image: url("./img/checkout-page-banner.png");
   background-color: #928F94;
   height: 596px;

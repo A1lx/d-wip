@@ -1,7 +1,7 @@
 import { AboutService } from "../../components/AboutService/AboutService";
 import { Advantages } from "../../components/Advantages/Advantages";
 import { Reviews } from "../../components/Reviews/Reviews";
-import { SearchTicketsForm } from "../../components/SearchTicketsForm/SearchTicketsForm";
+import { MainSearchTicketsForm } from "../../components/MainSearchTicketsForm/MainSearchTicketsForm";
 import "./mainPage.css";
 
 export const MainPage = () => {
@@ -12,7 +12,7 @@ export const MainPage = () => {
           <div>Вся жизнь -</div>
           <div className="banner__title-bold">путешествие!</div>
         </div>
-        <SearchTicketsForm/>
+        <MainSearchTicketsForm/>
       </article>
       <AboutService/>
       <Advantages/>

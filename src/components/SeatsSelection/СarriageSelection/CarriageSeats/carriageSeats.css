@@ -102,3 +102,12 @@
   align-items: center;
   margin-top: 17px;
 }
+
+.test__class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F4F6;
+  width: 130px;
+  height: 34px;
+}

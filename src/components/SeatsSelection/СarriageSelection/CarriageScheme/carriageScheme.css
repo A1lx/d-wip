@@ -1,0 +1,29 @@
+.carriage-scheme {
+  position: relative;
+  padding: 67px 0;
+}
+
+.carriage-scheme__info-text-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 41px;
+  width: 199px;
+  height: 72px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+
+.carriage-scheme__info-text {
+  text-align: center;
+}
+
+.carriage-scheme__img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.carriage-scheme__img {
+  width: 921px;
+}

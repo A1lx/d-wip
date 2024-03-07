@@ -1,3 +1,4 @@
+import "./datesSelect.css";
 import DatePicker from "react-datepicker";
 import ru from 'date-fns/locale/ru';
 import { registerLocale, setDefaultLocale } from "react-datepicker";
@@ -12,12 +13,12 @@ export const DatesSelect = () => {
 
   return (
     <>
-      <span>Дата</span>
-      <div className="search-tickets-form__inputs-box search-tickets-form__inputs-box_date">
-        <div className="search-tickets-form__input-box">
+      <h2 className="date-select__title">Дата</h2>
+      <div className="dates-select__inputs-box">
+        <div className="dates-select__input-box">
           <label htmlFor="search-tickets-form"></label>
           <DatePicker 
-            className="search-tickets-form__input"
+            className="dates-select__input"
             calendarClassName="date-picker__calendar"
             minDate={new Date()}
             id="search-tickets-form"
@@ -28,10 +29,10 @@ export const DatesSelect = () => {
             onChange={(date) => setStartDate(date)}
             />
         </div>
-        <div className="search-tickets-form__input-box">
+        <div className="dates-select__input-box">
           <label htmlFor="search-tickets-form"></label>
           <DatePicker 
-            className="search-tickets-form__input"
+            className="dates-select__input"
             calendarClassName="date-picker__calendar"
             minDate={new Date()}
             id="search-tickets-form"

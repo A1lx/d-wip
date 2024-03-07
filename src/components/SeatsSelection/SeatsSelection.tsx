@@ -5,7 +5,7 @@ export const SeatsSelection = () => {
   return (
     <section className="seats-selection">
       <span className="seats-selection__title">ВЫБОР МЕСТ</span>
-      <СarriageSelection/>
+      <СarriageSelection/>      
     </section>
   )
 }

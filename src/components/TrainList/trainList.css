@@ -11,6 +11,29 @@
   color: #928F94;
 }
 
+.train-list__info-select {
+  appearance: none;
+  border: none;
+  font-size: 18px;
+  margin-right: 60px;
+  background-color: #F7F5F9;
+}
+
+.train-list__info-select:hover {
+  cursor: pointer;
+}
+
+.train-list__info-select:focus {
+  outline:none;
+}
+
+.train-list__info-show-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #928F94;
+}
+
 .train-list__pagination-box {
   display: flex;
   justify-content: end;

@@ -1,27 +1,30 @@
+import "./citiesSelect.css";
 import swapIcon from "./img/swap-icon.svg";
 
 export const СitiesSelect = () => {
   return (
     <>
-      <span>Направление</span>
-      <div className="search-tickets-form__inputs-box search-tickets-form__inputs-box_direction">
-        <div className="search-tickets-form__input-box">
+      <h2 className="cities-select__title">Направление</h2>
+      <div className="cities-select__inputs-box">
+        <div className="cities-select__input-box">
           <label htmlFor="search-tickets-form"></label>
           <input 
             id="search-tickets-form"
             name="search-tickets-form"
-            className="search-tickets-form__input" 
+            className="cities-select__input" 
             type="text"
             placeholder="Откуда"
             />
         </div>
-        <img src={swapIcon} alt="swap-icon"/>
-        <div className="search-tickets-form__input-box">
+        <button className="cities-select__swap-btn">
+          <img src={swapIcon} alt="swap-icon"/>
+        </button>
+        <div className="cities-select__input-box">
           <label htmlFor="search-tickets-form"></label>
           <input 
             id="search-tickets-form" 
             name="search-tickets-form" 
-            className="search-tickets-form__input" 
+            className="cities-select__input" 
             type="text"
             placeholder="Куда"
           />

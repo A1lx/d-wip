@@ -1,7 +1,7 @@
 
 export const СarriageType = () => {
   return (
-    <div className="carriage-type">
+    <article className="carriage-type">
       <span className="carriage-type__title">Тип вагона</span>
       <div className="carriage-type__icons-box">
         <div className="carriage-type__icon-box">
@@ -31,6 +31,6 @@ export const СarriageType = () => {
           <span className="carriage-type__name">Люкс</span>
         </div>
       </div>
-    </div>
+    </article>
   )
 }

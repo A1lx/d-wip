@@ -4,12 +4,15 @@ import { SideBar } from "../../components/SideBar/SideBar";
 import { SeatsSelection } from "../../components/SeatsSelection/SeatsSelection";
 import { SidebarFilterForm } from "../../components/SidebarFilterForm/SidebarFilterForm";
 import { LastTickets } from "../../components/LastTickets/LastTickets";
+import { CheckoutSearchTicketsForm } from "../../components/CheckoutSearchTicketsForm/CheckoutSearchTicketsForm";
 
 /* 2я страница, страница выбора поезда */
 export const CheckoutPage = () => {
   return (
     <main className="checkout-page">
-      <article className="checkout-page__banner"></article>
+      <article className="checkout-page__banner">
+        <CheckoutSearchTicketsForm/>
+      </article>
       <article className="progress-bar">
         <div className="progress-bar__section progress-bar__section_active">
           <div className="progress-bar__section-number">1</div>
@@ -33,8 +36,8 @@ export const CheckoutPage = () => {
           <SidebarFilterForm/>
           <LastTickets/>
         </aside>
-        {/* <TrainList/> */}
-        <SeatsSelection/>
+        <TrainList/>
+        {/* <SeatsSelection/> */}
       </div>
     </main>
   )

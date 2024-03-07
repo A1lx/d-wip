@@ -1,6 +1,6 @@
 import "./trainList.css";
 import { TrainItem } from "./TrainItem/TrainItem";
-import Pagination from '@mui/material/Pagination';
+import Pagination from "@mui/material/Pagination";
 
 export const TrainList = () => {
   return (
@@ -9,7 +9,8 @@ export const TrainList = () => {
         <span>Найдено 20</span>
         <div>
           <span className="train-list__info-sort">сортировать по:  </span>
-          <select name="" id="">
+
+          <select name="" id="" className="train-list__info-select">
             <option value="time">времени</option>
             <option value="price">стоимости</option>
             <option value="duration">длительности</option>

@@ -2,7 +2,7 @@ import trainIcon from "./img/small-train-icon.svg";
 
 export const SelectedRoute = () => {
   return (
-    <div className="selected-route">
+    <article className="selected-route">
       <div className="selected-route__route-info-box">
         <img src={trainIcon} alt="train-icon"/>
         <div className="selected-route__route-info">
@@ -47,6 +47,6 @@ export const SelectedRoute = () => {
           <div>42 минуты</div>
         </div>
       </div>
-    </div>
+    </article>
   )
 }
