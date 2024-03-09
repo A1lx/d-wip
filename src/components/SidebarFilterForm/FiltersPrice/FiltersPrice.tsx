@@ -1,5 +1,5 @@
 import "./filtersPrice.css";
-import * as React from 'react';
+import React from "react";
 import Slider from '@mui/material/Slider';
 
 export const FiltersPrice = () => {

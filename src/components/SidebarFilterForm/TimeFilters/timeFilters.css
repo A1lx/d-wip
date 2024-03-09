@@ -2,3 +2,23 @@
   font-size: 30px;
   margin-left: 12px;
 }
+
+.time-filter-sliders {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+
+.time-filter-sliders__title {
+  font-size: 24px;
+  margin: 0 30px;
+}
+
+.time-filter-sliders__title_end {
+  align-self: flex-end;
+}
+
+.time-filter-sliders__slider-box {
+  text-align: center;
+  margin-top: 15px;
+}

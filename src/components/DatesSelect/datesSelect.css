@@ -24,11 +24,8 @@
   color: #E5E5E5;
 }
 
-/* переопределение библиотеки стилей календаря; если раскоментить, то у всех календарей будет один стиль, а необходим другой
-*/
-
-/* .date-picker__calendar {
-  width: 103%; 
+.date-picker__calendar {
+  width: 322px;
 }
 
 .react-datepicker__month-container {
@@ -36,9 +33,5 @@
 }
 
 .react-datepicker__day {
-  width: 2.3rem;
+  width: 12%;
 }
-
-.react-datepicker__day--keyboard-selected {
-  background-color: #FFA800;
-}  */

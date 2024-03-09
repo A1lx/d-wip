@@ -1,5 +1,6 @@
 import React from "react";
 import "./timeFilters.css";
+import { TimeFilterSliders } from "./TimeFilterSliders";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
@@ -40,7 +41,7 @@ export const TimeFilters = () => {
             {thereOpen ? closeIcon : openIcon }
           </ListItemButton>
           <Collapse in={thereOpen} timeout="auto" unmountOnExit>
-            <div>А где?</div>
+            <TimeFilterSliders/>
           </Collapse>
           <ListItemButton onClick={handleBackToggle}>
             <img src={backIcon} alt="иконка обратного направления"/>
@@ -48,7 +49,7 @@ export const TimeFilters = () => {
             {backOpen ? closeIcon : openIcon }
           </ListItemButton>
           <Collapse in={backOpen} timeout="auto" unmountOnExit>
-            <div>А где?</div>
+            <TimeFilterSliders/>
           </Collapse>
         </List>
       </article>

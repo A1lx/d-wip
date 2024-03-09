@@ -26,3 +26,15 @@
   padding: 10px;
   font-size: 18px;
 }
+
+.filters-date__calendar {
+  width: 295px;
+}
+
+.react-datepicker__month-container {
+  width: 100%;
+}
+
+.react-datepicker__day {
+  width: 12%;
+}

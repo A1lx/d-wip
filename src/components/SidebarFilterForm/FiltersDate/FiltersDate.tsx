@@ -13,8 +13,10 @@ export const FiltersDate = () => {
         <label htmlFor=""></label>
         <DatePicker 
           className="filters-date__input"
+          calendarClassName="filters-date__calendar"
           selected={travelDate}
           dateFormat="dd/MM/yyyy"
+          placeholderText="ДД/ММ/ГГ"
           minDate={new Date()}
           onChange={(date) => setTravelDate(date)}
         />
@@ -24,8 +26,10 @@ export const FiltersDate = () => {
         <label htmlFor=""></label>
         <DatePicker 
           className="filters-date__input"
+          calendarClassName="filters-date__calendar"
           selected={returnDate}
           dateFormat="dd/MM/yyyy"
+          placeholderText="ДД/ММ/ГГ"
           minDate={new Date()}
           onChange={(date) => setReturnDate(date)}
         />
