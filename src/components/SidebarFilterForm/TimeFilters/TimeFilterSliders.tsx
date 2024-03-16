@@ -2,7 +2,7 @@ import Slider from '@mui/material/Slider';
 import React from 'react';
 
 export const TimeFilterSliders = () => {
-  const [departureTime, setDepartureTime] = React.useState<number[]>([0, 100]);
+  const [departureTime, setDepartureTime] = React.useState<number[]>([0, 24]);
   const handleChangeDepartureTime = (event: Event, newValue: number | number[]) => {
     setDepartureTime(newValue as number[]);
   };
@@ -11,6 +11,10 @@ export const TimeFilterSliders = () => {
   const handleChangeArrivalTime = (event: Event, newValue: number | number[]) => {
     setArrivalTime(newValue as number[]);
   };
+
+  function valueLabelFormat(value: number) {
+    return `${value}:00`;
+  }
 
   return (
     <div className="time-filter-sliders__box">
@@ -24,7 +28,9 @@ export const TimeFilterSliders = () => {
             valueLabelDisplay="on"
             step={1}
             min={0}
-            max={100}
+            max={24}
+            getAriaValueText={valueLabelFormat}
+            valueLabelFormat={valueLabelFormat}
             sx={{ 
               color: "#FFA800", 
               height: 10,
@@ -46,7 +52,9 @@ export const TimeFilterSliders = () => {
             valueLabelDisplay="on"
             step={1}
             min={0}
-            max={100}
+            max={24}
+            getAriaValueText={valueLabelFormat}
+            valueLabelFormat={valueLabelFormat}
             sx={{ 
               color: "#FFA800", 
               height: 10,
